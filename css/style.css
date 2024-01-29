@@ -1,0 +1,302 @@
+/**TOUTES LES PAGES**/
+body {
+    line-height: 1.4;
+    font-family: verdana,geneva,freesans,clean,sans-serif;
+    font-size: 14px;
+}
+
+p {margin: 0}
+
+/** PAGE DE student-form **/
+#student-form {
+    padding: 30px 250px;
+}
+
+#student-form #page-choice{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+#student-form #page-choice > input{
+    padding: 20px; 
+    font-size: 20px;
+    border: 3px solid green;
+    cursor: pointer;
+    font-weight: bold;
+}
+#student-form #proof-absence-bt{
+    border-radius: 50px 0px 0px 50px;
+    border-left: none;
+}
+#student-form #leave-request-bt{
+    border-radius: 0px 50px 50px 0px;
+    border-right: none;
+}
+#student-form #message_admin, #student-form .form {
+    margin: 0 auto;
+    width: 50%;
+}
+
+#student-form #message_admin p {
+    font-weight: bold;
+}
+
+#student-form #txt-LR{
+    display: none;
+}
+#student-form #txt-PA{
+    display: none;
+}
+#student-form #school-choice{
+    border: 1px solid black;
+    margin-top: 40px;
+    text-align: center;
+}
+#student-form #school-select{
+    height: 30px;
+}
+
+#student-form #name-enter{
+    margin-top: 40px;
+    border: 1px solid black;
+    text-align: center;
+}
+#student-form #name-enter > input{
+    height: 30px;
+}
+#student-form #input-name{
+    width: 250px;
+}
+#student-form #motif{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    background-color: #D3D3D3;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#student-form #motif > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+#student-form #motif > div > div{
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    align-items: center;
+    vertical-align: center;
+    height: 40px;
+}
+#student-form #input-other{
+    width: 60%;
+}
+#student-form #personnal-case{
+    display: flex;
+    gap: 5%;
+}
+#student-form .col p{
+    text-align: left;
+    width: auto;
+}
+#student-form .input-date{
+    text-align: left;
+}
+#student-form #test_absence {
+    margin-top: 5px;
+}
+/*#student-form #annexes{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border: 1px solid black;
+    padding: 15px;
+}*/
+#student-form #validation{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+#student-form #validation-bt{
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+    background-color: #c5dfc5;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+#student-form #validation-bt:hover{
+    background-color: green;
+}
+#student-form #test-absence{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+#student-form #attestation-m{
+    display: none;
+}
+#student-form #convocation-m{
+    display: none;
+}
+#student-form #certificat-m{
+    display: none;
+}
+#student-form #annex-message{
+    color: red;
+}
+#student-form #hidden-fields{
+    display: none;
+}
+#other{
+    display: none;
+}
+#student-form #test-abs{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
+/** PAGE DE LOGIN **/
+#login-page #logo_cpnv{
+    height: 70px;
+    width: auto;
+}
+#login-page #login_div{
+    margin-top: 15%;
+    text-align: center;
+}
+#login-page #login_div > div{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+#login-page #login_div>div>input{
+    height: 100%;
+    border: 1px solid green;
+}
+#login-page #login_text{
+    border-radius: 50px 0px 0px 50px ;
+}
+#login-page #login_bt{
+    background-color: green;
+    color: white;
+    border-radius: 0px 50px 50px 0px;
+    margin: 0;
+}
+
+/** PAGE DU PROF **/
+#form-validation {
+    margin: 0 240px;
+}
+
+#form-validation h1 {
+    text-align: center;
+}
+#form-validation table, #form-validation th, #form-validation td{
+    border-collapse: collapse;
+    border: solid black 1px;
+    text-align: center;
+}
+
+#form-validation table {
+    width: 100%;
+}
+
+#form-validation .form-details table{
+    width: 100%;
+}
+
+#form-validation .main-table td{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#form-validation #header-class, #form-validation #header-status{
+    width: 10%;
+}
+
+#form-validation #header-student, #form-validation #header-submission-date,
+#form-validation #header-beginning-date, #form-validation #header-end-date{
+    width: 20%;
+}
+
+#form-validation .align-left{
+    text-align: left;
+}
+
+#form-validation .area {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+#form-validation .area .tab_class {
+    width: calc(100%/2);
+    height: 50px;
+    background-color: lightgray;
+    color: #fff;
+    line-height: 50px;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    float: left;
+    order: -1;
+    border-bottom: 3px solid #366989;
+    box-sizing: border-box;
+}
+
+/*hide all input elements with name "tab_name"*/
+#form-validation .area input[name="tab_name"] {
+    display: none;
+}
+
+/* color of tab which is just after the checked input*/
+#form-validation .area input:checked + .tab_class {
+    background-color: #366989;
+    color: aliceblue;
+}
+
+/*Hide all contents elements*/
+#form-validation .area .content-class {
+    display: none;
+    width: 100%;
+    border-bottom: 3px solid #366989;
+    border-right: 3px solid #366989;
+    border-left: 3px solid #366989;
+    padding: 40px 200px;
+    margin-bottom: 2em;
+}
+
+/*Show the content which is just after the checked input*/
+#form-validation .area input:checked + .tab_class + .content-class {
+    display: block;
+}
+
+#form-validation .form-btns{
+    margin-top: 30px;
+}
+
+#form-validation .form-details td {
+    text-align: left;
+    border: none;
+}
+
+#form-validation .form-details tr {
+    border-bottom: 3px solid lightgray;
+}
+
+#form-validation .form-details table {
+    border: none;
+}
+
+#form-validation .form-details .title {
+    width: 26%;
+}
